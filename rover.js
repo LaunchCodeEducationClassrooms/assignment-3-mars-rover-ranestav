@@ -20,7 +20,7 @@ class Rover {
              results.push({completed: false});
            } else {
                results.push({completed: true});
-               this.position += message.commands[i].value;
+               this.position = message.commands[i].value;
            }
        } else {
            results.push(message.commands[i]);

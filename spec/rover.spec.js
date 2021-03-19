@@ -62,7 +62,7 @@ it("response returned by receiveMessage includes two results if two commands are
     let message = new Message('Test message for test 13', commands);
     let rover = new Rover(22000);
     let response = rover.receiveMessage(message);
-    expect(rover.position).toEqual(36000);
+    expect(rover.position).toEqual(14000);
   });
 
   // 7 tests here!
